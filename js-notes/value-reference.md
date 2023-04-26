@@ -14,7 +14,7 @@ Even the character type doesn't exists in Javascript.
 
 In Javascript strings are immutable data types, with an interface that makes them look like an array of characters. In practice if we modify some string then it results in a new immutable string value. ie
 
-![string-immutability.png](Value%20and%20Reference%20Types%200eb5d6fe71f94d4bb7fcee09ec392a29/string-immutability.png)
+![string-immutability.png](value-reference/string-immutability.png)
 
 AS show in above program we have tried to modify the name string from vidya to sagar but instead of modifing the existing value it create a new string and start referencing to it.
 
