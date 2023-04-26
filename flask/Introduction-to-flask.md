@@ -203,8 +203,9 @@
     </html>
     
     ```
-    
+    ```
     This template will display a header tag containing the text "Products", followed by an unordered list of the products passed from the application. The `{% %}` syntax is used to denote template control statements, while the `{{ }}` syntax is used to output values.
+    ```
     
     When the user navigates to the "/products" URL in their browser, Flask will execute the `show_products` function and pass the resulting HTML to the client. The template engine will replace the placeholders in the template with the actual values passed from the application, and the final HTML output will be displayed to the user.
     
